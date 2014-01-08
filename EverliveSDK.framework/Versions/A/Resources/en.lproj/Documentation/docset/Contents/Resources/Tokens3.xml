@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EVObject.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EVObject</TokenIdentifier>
+			<Abstract type="html">An Everlive framework object that is the local representation of the data stored in Everlive cloud.</Abstract>
+			<DeclaredIn>EVObject.h</DeclaredIn>
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/EVObject/fetchAll:</TokenIdentifier>
+			<Abstract type="html">Retrieves all the EVObject in background.</Abstract>
+			<DeclaredIn>EVObject+DataStore.h</DeclaredIn>			
+			
+			<Declaration>+ (void)fetchAll:(EVObjectFetchResultBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">The block to execute. The block should have the following argument signature: (BOOL success, NSError *error)</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/fetchAll:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/EVObject/fetchAll:selector:</TokenIdentifier>
+			<Abstract type="html">Retrieves all the EVObject in background.</Abstract>
+			<DeclaredIn>EVObject+DataStore.h</DeclaredIn>			
+			
+			<Declaration>+ (void)fetchAll:(id)target selector:(SEL)selector</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>target</Name>
+					<Abstract type="html">The object to call selector on</Abstract>
+				</Parameter><Parameter>
+					<Name>selector</Name>
+					<Abstract type="html">The selector to call. It should have the following signature: (void)requestCompletedWithResult:(NSArray)result error:(NSError)error. error will be nill on success.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/fetchAll:selector:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EVObject/create:</TokenIdentifier>
+			<Abstract type="html">Saves the EVObject in background.</Abstract>
+			<DeclaredIn>EVObject+DataStore.h</DeclaredIn>			
+			
+			<Declaration>- (void)create:(EVObjectResultBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">The block to execute. The block should have the following argument signature: (BOOL success, NSError *error)</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/create:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EVObject/create:selector:</TokenIdentifier>
+			<Abstract type="html">Saves a new EVObject in background.</Abstract>
+			<DeclaredIn>EVObject+DataStore.h</DeclaredIn>			
+			
+			<Declaration>- (void)create:(id)target selector:(SEL)selector</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>target</Name>
+					<Abstract type="html">The object to call selector on.</Abstract>
+				</Parameter><Parameter>
+					<Name>selector</Name>
+					<Abstract type="html">The selector to call. It should have the following signature: (void)requestCompletedWithResult:(NSArray)result error:(NSError)error. error will be nill on success.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/create:selector:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EVObject/update:</TokenIdentifier>
+			<Abstract type="html">Updates the EVObject in background.</Abstract>
+			<DeclaredIn>EVObject+DataStore.h</DeclaredIn>			
+			
+			<Declaration>- (void)update:(EVObjectResultBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">The block to execute. The block should have the following argument signature: (BOOL success, NSError *error)</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/update:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EVObject/update:selector:</TokenIdentifier>
+			<Abstract type="html">updates the EVObject in background.</Abstract>
+			<DeclaredIn>EVObject+DataStore.h</DeclaredIn>			
+			
+			<Declaration>- (void)update:(id)target selector:(SEL)selector</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>target</Name>
+					<Abstract type="html">The object to call selector on.</Abstract>
+				</Parameter><Parameter>
+					<Name>selector</Name>
+					<Abstract type="html">The selector to call. It should have the following signature: (void)requestCompletedWithResult:(NSArray)result error:(NSError)error. error will be nill on success.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/update:selector:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EVObject/remove:</TokenIdentifier>
+			<Abstract type="html">Removes the EVObject in background.</Abstract>
+			<DeclaredIn>EVObject+DataStore.h</DeclaredIn>			
+			
+			<Declaration>- (void)remove:(EVObjectResultBlock)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">The block to execute. The block should have the following argument signature: (BOOL success, NSError *error)</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/remove:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EVObject/remove:selector:</TokenIdentifier>
+			<Abstract type="html">Removes the EVObject in background.</Abstract>
+			<DeclaredIn>EVObject+DataStore.h</DeclaredIn>			
+			
+			<Declaration>- (void)remove:(id)target selector:(SEL)selector</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>target</Name>
+					<Abstract type="html">The object to call selector on.</Abstract>
+				</Parameter><Parameter>
+					<Name>selector</Name>
+					<Abstract type="html">The selector to call. It should have the following signature: (void)requestCompletedWithResult:(NSArray)result error:(NSError)error. error will be nill on success.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/remove:selector:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

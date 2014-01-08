@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Sample (Push).xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>Sample.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>pushSample.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>6133DBE217774AA40000FFFB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6137E74517F3589D00AE3A73</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6137E76217F3589D00AE3A73</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6137E77D17F358ED00AE3A73</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6137E79917F358ED00AE3A73</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>61DA1512179463E800DEC1A2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>61DA1525179467DE00DEC1A2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

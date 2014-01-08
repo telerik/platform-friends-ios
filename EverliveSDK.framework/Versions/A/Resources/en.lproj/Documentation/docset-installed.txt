@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/ppavlov/Library/Developer/Shared/Documentation/DocSets/com.Telerik.EverliveSDK.docset
+Time: 2014-01-07 17:04:56 +0000
