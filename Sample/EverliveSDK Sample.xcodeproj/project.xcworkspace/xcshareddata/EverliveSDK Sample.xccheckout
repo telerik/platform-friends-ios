@@ -2,37 +2,39 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>E682F197-90D0-4502-8AF6-4DE937DB28DE</string>
+	<string>499FA383-6C61-40C1-BCFA-082D022128F3</string>
 	<key>IDESourceControlProjectName</key>
 	<string>EverliveSDK Sample</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>47A6F33D-8F4A-4093-A492-554599F1B606</key>
-		<string>https://github.com/telerik/everlive-friends-ios.git</string>
+		<key>1362F020-029F-4504-B789-535CA13739DB</key>
+		<string>https://github.com/telerik/platform-friends-ios.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>EverliveSDK Sample.xcodeproj/project.xcworkspace</string>
+	<string>Sample/EverliveSDK Sample.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>47A6F33D-8F4A-4093-A492-554599F1B606</key>
-		<string>../..</string>
+		<key>1362F020-029F-4504-B789-535CA13739DB</key>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/telerik/everlive-friends-ios.git</string>
+	<string>https://github.com/telerik/platform-friends-ios.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>47A6F33D-8F4A-4093-A492-554599F1B606</string>
+	<string>1362F020-029F-4504-B789-535CA13739DB</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>47A6F33D-8F4A-4093-A492-554599F1B606</string>
+			<string>1362F020-029F-4504-B789-535CA13739DB</string>
 			<key>IDESourceControlWCCName</key>
-			<string>everlive-friends-ios</string>
+			<string>platform-friends-ios</string>
 		</dict>
 	</array>
 </dict>

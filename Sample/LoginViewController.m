@@ -92,7 +92,7 @@
     }
     else if ([sender isEqual:self.liveIDLoginButton]){
         [self trackFeatureInAnalytics:@"Login.LiveID"];
-        self.liveClient =[[LiveConnectClient alloc] initWithClientId:@"0000000040110FD6" delegate:self userState:@"initialize"];
+        self.liveClient =[[LiveConnectClient alloc] initWithClientId:[[NSBundle mainBundle] objectForInfoDictionaryKey:@"LiveIDClientID"] delegate:self userState:@"initialize"];
     }
     else if ([sender isEqual:self.signUpButton]){
         self.navigationItem.title = nil;
@@ -105,15 +105,11 @@
         GPPSignIn *signIn = [GPPSignIn sharedInstance];
         signIn.shouldFetchGooglePlusUser = YES;
         signIn.shouldFetchGoogleUserEmail = YES;
-        signIn.clientID = @"406987471724-ns63fbet698b37rmindsiao4u9i6v0jf.apps.googleusercontent.com";
-        
-        // Uncomment one of these two statements for the scope you chose in the previous step
-        //signIn.scopes = @[ kGTLAuthScopePlusLogin ];  // plus.login scope defined in GTLPlusConstants.h
-        signIn.scopes = @[ @"profile" ];            // profile scope
+        signIn.clientID = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"GoogleClientID"];
+        signIn.scopes = @[ @"profile" ];
         signIn.delegate = self;
         
         [signIn authenticate];
-        
     }
 }
 
