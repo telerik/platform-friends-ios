@@ -1,5 +1,5 @@
 This folder contains the files needed to try out Telerik Mobile Testing with the
-sample Everlive Friends app.
+sample Friends app.
 
 The most up-to-date instructions for preparing your iOS app for testing with
 Telerik Mobile Testing are available at:
