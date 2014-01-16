@@ -47,19 +47,15 @@
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>EverliveAPIKey</key>
-	<string>qJ7ZjOwTeuNVKTEe</string>
+	<string></string>
 	<key>EverliveMasterKey</key>
 	<string></string>
 	<key>FacebookAppID</key>
-	<string>1427072220860459</string>
-	<key>GoogleClientID</key>
-	<string>406987471724-ns63fbet698b37rmindsiao4u9i6v0jf.apps.googleusercontent.com</string>
+	<string>1408629486049918</string>
 	<key>LSApplicationCategoryType</key>
 	<string></string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>LiveIDClientID</key>
-	<string>000000004C10D1AF</string>
 	<key>UIMainStoryboardFile</key>
 	<string>MainStoryboard</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -72,6 +68,10 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>GoogleClientID</key>
+	<string>406987471724-ns63fbet698b37rmindsiao4u9i6v0jf.apps.googleusercontent.com</string>
+	<key>LiveIDClientID</key>
+	<string>000000004C10D1AF</string>
 	<key>analyticsProductID</key>
 	<string>d06ddac40e324dbdac3085f0ea76f709</string>
 </dict>

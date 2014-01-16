@@ -30,8 +30,8 @@ spec(function() {
 		'And is logged in': {
 			'ios': [
 				// NOTE: Update the following two lines to use an existing everlive account and password
-				ios.setText(queries.ios.login.usernameField, "Telerik", false),
-				ios.setText(queries.ios.login.passwordField, "telerik", false),
+				ios.setText(queries.ios.login.usernameField, "EVERLIVE_ACCOUNT_USERNAME", false),
+				ios.setText(queries.ios.login.passwordField, "EVERLIVE_ACCOUNT_PASSWORD", false),
 				ios.tap(queries.ios.login.loginButton),
 				ios.wait(3000)
 			]

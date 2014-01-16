@@ -340,7 +340,6 @@
 				8DC9703D187D8C7D00570EC4 /* Friends.app */,
 				8DC9703F187D8C7E00570EC4 /* Friends+.app */,
 				EC62461F1887552A00D8C56B /* SampleQA.app */,
-				EC6246201887552A00D8C56B /* SampleQA-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -393,6 +392,7 @@
 		6133DBED17774AA40000FFFB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EC6246201887552A00D8C56B /* SampleQA-Info.plist */,
 				8D7076BF1862F82200424C24 /* Default-568h@2x.png */,
 				8D77521E185F539D002E6DC2 /* logo-telerik_devcloud@2x.png */,
 				8D57851A185A2BE800F99ACB /* avatar.png */,
