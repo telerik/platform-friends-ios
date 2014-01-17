@@ -74,5 +74,7 @@
 	<string>000000004C10D1AF</string>
 	<key>analyticsProductID</key>
 	<string>d06ddac40e324dbdac3085f0ea76f709</string>
+	<key>UseHTTPS</key>
+	<false/>
 </dict>
 </plist>

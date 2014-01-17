@@ -26,6 +26,12 @@
     [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]}];
     [[UIApplication sharedApplication]setStatusBarStyle:UIStatusBarStyleLightContent];
     
+    bool useHttps = [[[[NSBundle mainBundle] infoDictionary] objectForKey:@"UseHTTPS"] boolValue];
+    
+    if(useHttps){
+        [Everlive setServerUrl:@"https://api.everlive.com/v1"];
+    }
+    
     return YES;
 }
 							
@@ -62,8 +68,5 @@
                   sourceApplication:sourceApplication
                          annotation:annotation];
 }
-
-
-
 
 @end
