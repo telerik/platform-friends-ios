@@ -1,4 +1,3 @@
-
 The **Friends Demo App** is a native iOS application providing some sample code illustrating how to achieve common tasks using the **native Everlive iOS SDK**. 
 ### Demonstrated features
 By running the Friends sample app you may see the following Everlive features in action:
@@ -30,7 +29,7 @@ By default the Friends Sample is configured to use HTTP. In case you wish to swi
 
 ###Analytics:
 
-The Friends application contains some sample code demonstrating how to track your features usages features.
+The Friends application contains some sample code demonstrating how to track your features usage.
 In the Friends sample app for illustrative purposes  the usage of the social login buttons (Facebook, Google, LiveID, ADFS) is being tracked. To be able to monitor and analyse the usage of these features from within your Telerik account please be sure to update **analyticsProductID** setting with your analytics product ID. 
 
 ###Using the application:
