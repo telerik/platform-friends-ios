@@ -1,14 +1,5 @@
----
-title: iOS
-slug: sample-friends-ios
-meta_title: Friends Sample for iOS 
-meta_description: Introduction to the Friends Sample App for iOS.
-tags: friends, iOS, sample, platform, telerik, analytics, backend services, objectivec, objective-c
-publish: true
-ordinal: 2
----
 
-This section is dedicated to the [Friends sample app](slug:sample-friends) for the **iOS** platform. 
+**Friends sample app**  for the **iOS** platform. 
 
 ## Showcased features and SDKs
 
