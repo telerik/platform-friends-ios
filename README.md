@@ -1,7 +1,5 @@
-
 **Friends sample app**  for the **iOS** platform. 
 
-## Showcased features and SDKs
 
 <span id="showcased-features-sdks" />
 ## Showcased features and SDKs
