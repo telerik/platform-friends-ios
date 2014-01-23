@@ -43,8 +43,7 @@ To set the API key go to the EverliveSDKSample-Info.plist file and set the Everl
 This step is optional, it links the sample mobile app to a Telerik Analytics project in your account. If you do not set this the sample will still work, but no analytics data will collected.
 
 - [optional] **Facebook app ID**  
-The sample app allows users to register using their Facebook account. We've pre-initialized the sample to use a Facebook app created by Telerik for the purpose. If you want, you can set it to use your own Facebook application by adjusting the Facebook app ID.
-TODO - where to set it
+The sample app allows users to register using their Facebook account. We've pre-initialized the sample to use a Facebook app created by Telerik for the purpose. Please  replace the default setting in the EverliveSDKSample-Info.plist file.
 
 - [optional] **Google**  
 The sample app allows users to register using their Google account. Please  replace the default setting in the EverliveSDKSample-Info.plist file.
