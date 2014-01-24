@@ -1,5 +1,6 @@
-**Friends sample app**  for the **iOS** platform. 
-
+Friends Sample App for iOS
+=============================
+This repository contains the [Friends sample app](http://docs.telerik.com/platform/backend-services/samples/friends/friends-sample) for iOS. The Friends app is a sample mobile app showcasing the integration of Telerik Platform services into an iOS appllication. To download the source code, just click on the "Download ZIP" button.
 
 <span id="showcased-features-sdks" />
 ## Showcased features and SDKs
