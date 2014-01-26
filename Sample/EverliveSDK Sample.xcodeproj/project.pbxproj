@@ -81,8 +81,6 @@
 		8D77522F186089D1002E6DC2 /* LiveSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D77522E186089D1002E6DC2 /* LiveSDK.framework */; };
 		8D77523218608AD9002E6DC2 /* LiveAuthDialog_iPad.nib in Resources */ = {isa = PBXBuildFile; fileRef = 8D77523018608AD9002E6DC2 /* LiveAuthDialog_iPad.nib */; };
 		8D77523318608AD9002E6DC2 /* LiveAuthDialog_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 8D77523118608AD9002E6DC2 /* LiveAuthDialog_iPhone.nib */; };
-		8DC9703C187D8C7D00570EC4 /* EverliveSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC9703B187D8C7D00570EC4 /* EverliveSDK.framework */; };
-		8DC9703E187D8C7E00570EC4 /* EverliveSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC9703B187D8C7D00570EC4 /* EverliveSDK.framework */; };
 		8DD32E3D17C2518F00718D85 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DD32E3C17C2518E00718D85 /* Icon@2x.png */; };
 		EC6245DA1887552A00D8C56B /* FriendsAppUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0FFAD918647FC000A35793 /* FriendsAppUser.m */; };
 		EC6245DB1887552A00D8C56B /* TKUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 61DA15441795CED600DEC1A2 /* TKUITextField.m */; };
@@ -121,7 +119,6 @@
 		EC6245FD1887552A00D8C56B /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D7076A81861B0D400424C24 /* GooglePlus.framework */; };
 		EC6245FE1887552A00D8C56B /* GoogleOpenSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D7076A41861AE5B00424C24 /* GoogleOpenSource.framework */; };
 		EC6245FF1887552A00D8C56B /* LiveSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D77522E186089D1002E6DC2 /* LiveSDK.framework */; };
-		EC6246001887552A00D8C56B /* EverliveSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC9703B187D8C7D00570EC4 /* EverliveSDK.framework */; };
 		EC6246021887552A00D8C56B /* LiveAuthDialog_iPad.nib in Resources */ = {isa = PBXBuildFile; fileRef = 8D77523018608AD9002E6DC2 /* LiveAuthDialog_iPad.nib */; };
 		EC6246031887552A00D8C56B /* LiveAuthDialog_iPhone.nib in Resources */ = {isa = PBXBuildFile; fileRef = 8D77523118608AD9002E6DC2 /* LiveAuthDialog_iPhone.nib */; };
 		EC6246041887552A00D8C56B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61C795AB1818634D00A45036 /* MainStoryboard.storyboard */; };
@@ -247,7 +244,6 @@
 		8D77522E186089D1002E6DC2 /* LiveSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LiveSDK.framework; sourceTree = "<group>"; };
 		8D77523018608AD9002E6DC2 /* LiveAuthDialog_iPad.nib */ = {isa = PBXFileReference; lastKnownFileType = file; name = LiveAuthDialog_iPad.nib; path = LiveSDK.framework/Versions/5.0.3649.0612/Resources/LiveAuthDialog_iPad.nib; sourceTree = "<group>"; };
 		8D77523118608AD9002E6DC2 /* LiveAuthDialog_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file; name = LiveAuthDialog_iPhone.nib; path = LiveSDK.framework/Versions/5.0.3649.0612/Resources/LiveAuthDialog_iPhone.nib; sourceTree = "<group>"; };
-		8DC9703B187D8C7D00570EC4 /* EverliveSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EverliveSDK.framework; sourceTree = "<group>"; };
 		8DC9703D187D8C7D00570EC4 /* Friends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Friends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DC9703F187D8C7E00570EC4 /* Friends+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Friends+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DD32E3C17C2518E00718D85 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
@@ -281,7 +277,6 @@
 				8D7076A91861B0D400424C24 /* GooglePlus.framework in Frameworks */,
 				8D7076A51861AE5B00424C24 /* GoogleOpenSource.framework in Frameworks */,
 				8D77522F186089D1002E6DC2 /* LiveSDK.framework in Frameworks */,
-				8DC9703C187D8C7D00570EC4 /* EverliveSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +285,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6137E78017F358ED00AE3A73 /* CoreGraphics.framework in Frameworks */,
-				8DC9703E187D8C7E00570EC4 /* EverliveSDK.framework in Frameworks */,
 				6137E78117F358ED00AE3A73 /* UIKit.framework in Frameworks */,
 				6137E77F17F358ED00AE3A73 /* Foundation.framework in Frameworks */,
 			);
@@ -321,7 +315,6 @@
 				EC6245FD1887552A00D8C56B /* GooglePlus.framework in Frameworks */,
 				EC6245FE1887552A00D8C56B /* GoogleOpenSource.framework in Frameworks */,
 				EC6245FF1887552A00D8C56B /* LiveSDK.framework in Frameworks */,
-				EC6246001887552A00D8C56B /* EverliveSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +342,6 @@
 				EC6246231887575900D8C56B /* CFNetwork.framework */,
 				EC6246241887575900D8C56B /* libicucore.dylib */,
 				EC6246211887557A00D8C56B /* libMobileTestingExtension.a */,
-				8DC9703B187D8C7D00570EC4 /* EverliveSDK.framework */,
 				8D7076B91861CE0000424C24 /* CoreLocation.framework */,
 				8D7076B71861C0D100424C24 /* SystemConfiguration.framework */,
 				8D7076B51861C0C200424C24 /* Security.framework */,
