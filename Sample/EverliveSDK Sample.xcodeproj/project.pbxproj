@@ -8,18 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		61031BA117BC44C600B9CA63 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61031B9F17BC44C600B9CA63 /* Localizable.strings */; };
-		611BDC2917FDC75900879DD6 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 61DA15421795CED600DEC1A2 /* MBProgressHUD.m */; };
 		6133DBE717774AA40000FFFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6133DBE617774AA40000FFFB /* UIKit.framework */; };
 		6133DBEB17774AA40000FFFB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6133DBEA17774AA40000FFFB /* CoreGraphics.framework */; };
-		6137E77F17F358ED00AE3A73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6137E74717F3589D00AE3A73 /* Foundation.framework */; };
-		6137E78017F358ED00AE3A73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6133DBEA17774AA40000FFFB /* CoreGraphics.framework */; };
-		6137E78117F358ED00AE3A73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6133DBE617774AA40000FFFB /* UIKit.framework */; };
 		6144F38F17B15E7D00C7BC1C /* TKShadowedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6144F38E17B15E7D00C7BC1C /* TKShadowedView.m */; };
 		6144F39517B2EC2400C7BC1C /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6144F39417B2EC2400C7BC1C /* SignUpViewController.m */; };
 		61471C0D18195FAE0015E01A /* TKUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 61DA15441795CED600DEC1A2 /* TKUITextField.m */; };
 		61471C5B181A10200015E01A /* TKGrayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61471C5A181A10200015E01A /* TKGrayView.m */; };
-		6172773E17F37661007828A6 /* TKUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EC11D817A85D90004A84C6 /* TKUIButton.m */; };
-		6172775017F3EDF3007828A6 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DD32E3C17C2518E00718D85 /* Icon@2x.png */; };
 		6173D06F17AA223300240D13 /* UIColor+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 6173D06E17AA223300240D13 /* UIColor+Custom.m */; };
 		61B4884417D9069600AE0ACE /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B4884317D9069600AE0ACE /* FacebookSDK.framework */; };
 		61C795AD1818634D00A45036 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61C795AB1818634D00A45036 /* MainStoryboard.storyboard */; };
@@ -235,7 +229,6 @@
 		8D77523018608AD9002E6DC2 /* LiveAuthDialog_iPad.nib */ = {isa = PBXFileReference; lastKnownFileType = file; name = LiveAuthDialog_iPad.nib; path = LiveSDK.framework/Versions/5.0.3649.0612/Resources/LiveAuthDialog_iPad.nib; sourceTree = "<group>"; };
 		8D77523118608AD9002E6DC2 /* LiveAuthDialog_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file; name = LiveAuthDialog_iPhone.nib; path = LiveSDK.framework/Versions/5.0.3649.0612/Resources/LiveAuthDialog_iPhone.nib; sourceTree = "<group>"; };
 		8DC9703D187D8C7D00570EC4 /* Friends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Friends.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DC9703F187D8C7E00570EC4 /* Friends+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Friends+.app"; path = "/Users/ppavlov/platform-friends-ios/Sample/build/Debug-iphoneos/Friends+.app"; sourceTree = "<absolute>"; };
 		8DD32E3C17C2518E00718D85 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		EC62461F1887552A00D8C56B /* SampleQA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleQA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC6246201887552A00D8C56B /* SampleQA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SampleQA-Info.plist"; path = "/Users/shoemate/Source/platform-friends-ios/Sample/SampleQA-Info.plist"; sourceTree = "<absolute>"; };
@@ -269,16 +262,6 @@
 				8D74BC8A1896A2F000089896 /* EQATECAnalyticsMonitoriOS.framework in Frameworks */,
 				8D77522F186089D1002E6DC2 /* LiveSDK.framework in Frameworks */,
 				8D74BC871896A2D000089896 /* EverliveSDK.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6137E77B17F358ED00AE3A73 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6137E78017F358ED00AE3A73 /* CoreGraphics.framework in Frameworks */,
-				6137E78117F358ED00AE3A73 /* UIKit.framework in Frameworks */,
-				6137E77F17F358ED00AE3A73 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,23 +465,6 @@
 			productReference = 8DC9703D187D8C7D00570EC4 /* Friends.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6137E77D17F358ED00AE3A73 /* Sample (Push) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6137E7A817F358EE00AE3A73 /* Build configuration list for PBXNativeTarget "Sample (Push)" */;
-			buildPhases = (
-				6137E77A17F358ED00AE3A73 /* Sources */,
-				6137E77B17F358ED00AE3A73 /* Frameworks */,
-				6137E77C17F358ED00AE3A73 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Sample (Push)";
-			productName = PushSample;
-			productReference = 8DC9703F187D8C7E00570EC4 /* Friends+.app */;
-			productType = "com.apple.product-type.application";
-		};
 		EC6245D81887552A00D8C56B /* SampleQA */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC62461C1887552A00D8C56B /* Build configuration list for PBXNativeTarget "SampleQA" */;
@@ -528,9 +494,6 @@
 					6133DBE217774AA40000FFFB = {
 						DevelopmentTeam = CHSQ3M3P37;
 					};
-					6137E77D17F358ED00AE3A73 = {
-						DevelopmentTeam = YXKDJK6637;
-					};
 				};
 			};
 			buildConfigurationList = 6133DBDE17774AA40000FFFB /* Build configuration list for PBXProject "EverliveSDK Sample" */;
@@ -547,7 +510,6 @@
 			projectRoot = "";
 			targets = (
 				6133DBE217774AA40000FFFB /* Sample */,
-				6137E77D17F358ED00AE3A73 /* Sample (Push) */,
 				EC6245D81887552A00D8C56B /* SampleQA */,
 			);
 		};
@@ -584,14 +546,6 @@
 				8D578541185A2BE800F99ACB /* logo.png in Resources */,
 				8D578532185A2BE800F99ACB /* icon-adfs@2x.png in Resources */,
 				8DD32E3D17C2518F00718D85 /* Icon@2x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6137E77C17F358ED00AE3A73 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6172775017F3EDF3007828A6 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -654,15 +608,6 @@
 				8D7076C318632ADA00424C24 /* DateViewController.m in Sources */,
 				8D7076D01863581100424C24 /* ADFSLoginViewController.m in Sources */,
 				6144F39517B2EC2400C7BC1C /* SignUpViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6137E77A17F358ED00AE3A73 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				611BDC2917FDC75900879DD6 /* MBProgressHUD.m in Sources */,
-				6172773E17F37661007828A6 /* TKUIButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -823,71 +768,6 @@
 			};
 			name = Release;
 		};
-		6137E7A917F358EE00AE3A73 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../Sample/",
-					"/Users/ppavlov/everlive-friends-ios",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PushSample/PushSample-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = "PushSample/PushSample-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = "Friends+";
-				PROVISIONING_PROFILE = "5BA0488D-D06C-4F90-8137-BDE44A452F2D";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		6137E7AA17F358EE00AE3A73 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				ENABLE_NS_ASSERTIONS = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../Sample/",
-					"/Users/ppavlov/everlive-friends-ios",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PushSample/PushSample-Prefix.pch";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = "PushSample/PushSample-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = "Friends+";
-				PROVISIONING_PROFILE = "5BA0488D-D06C-4F90-8137-BDE44A452F2D";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
 		EC62461D1887552A00D8C56B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -963,15 +843,6 @@
 			buildConfigurations = (
 				6133DC0717774AA40000FFFB /* Debug */,
 				6133DC0817774AA40000FFFB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6137E7A817F358EE00AE3A73 /* Build configuration list for PBXNativeTarget "Sample (Push)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6137E7A917F358EE00AE3A73 /* Debug */,
-				6137E7AA17F358EE00AE3A73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
