@@ -75,6 +75,8 @@
 		8D7076C01862F82200424C24 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D7076BF1862F82200424C24 /* Default-568h@2x.png */; };
 		8D7076C318632ADA00424C24 /* DateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7076C218632ADA00424C24 /* DateViewController.m */; };
 		8D7076D01863581100424C24 /* ADFSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7076CF1863581100424C24 /* ADFSLoginViewController.m */; };
+		8D74BC871896A2D000089896 /* EverliveSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D74BC861896A2D000089896 /* EverliveSDK.framework */; };
+		8D74BC881896A2D000089896 /* EverliveSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D74BC861896A2D000089896 /* EverliveSDK.framework */; };
 		8D775219185F3E4A002E6DC2 /* EQATECAnalyticsMonitoriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D775218185F3E4A002E6DC2 /* EQATECAnalyticsMonitoriOS.framework */; };
 		8D77521D185F433D002E6DC2 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D77521C185F433D002E6DC2 /* libstdc++.6.0.9.dylib */; };
 		8D77521F185F539D002E6DC2 /* logo-telerik_devcloud@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D77521E185F539D002E6DC2 /* logo-telerik_devcloud@2x.png */; };
@@ -238,6 +240,7 @@
 		8D7076C218632ADA00424C24 /* DateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateViewController.m; sourceTree = SOURCE_ROOT; };
 		8D7076CE1863581100424C24 /* ADFSLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADFSLoginViewController.h; sourceTree = SOURCE_ROOT; };
 		8D7076CF1863581100424C24 /* ADFSLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADFSLoginViewController.m; sourceTree = SOURCE_ROOT; };
+		8D74BC861896A2D000089896 /* EverliveSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EverliveSDK.framework; sourceTree = "<group>"; };
 		8D775218185F3E4A002E6DC2 /* EQATECAnalyticsMonitoriOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EQATECAnalyticsMonitoriOS.framework; sourceTree = "<group>"; };
 		8D77521C185F433D002E6DC2 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
 		8D77521E185F539D002E6DC2 /* logo-telerik_devcloud@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-telerik_devcloud@2x.png"; sourceTree = SOURCE_ROOT; };
@@ -277,6 +280,7 @@
 				8D7076A91861B0D400424C24 /* GooglePlus.framework in Frameworks */,
 				8D7076A51861AE5B00424C24 /* GoogleOpenSource.framework in Frameworks */,
 				8D77522F186089D1002E6DC2 /* LiveSDK.framework in Frameworks */,
+				8D74BC871896A2D000089896 /* EverliveSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +313,7 @@
 				EC6245F81887552A00D8C56B /* CoreMotion.framework in Frameworks */,
 				EC6245F91887552A00D8C56B /* libstdc++.6.0.9.dylib in Frameworks */,
 				EC6246221887557A00D8C56B /* libMobileTestingExtension.a in Frameworks */,
+				8D74BC881896A2D000089896 /* EverliveSDK.framework in Frameworks */,
 				EC6245FA1887552A00D8C56B /* QuartzCore.framework in Frameworks */,
 				EC6245FB1887552A00D8C56B /* FacebookSDK.framework in Frameworks */,
 				EC6245FC1887552A00D8C56B /* EQATECAnalyticsMonitoriOS.framework in Frameworks */,
@@ -339,6 +344,7 @@
 		6133DBE517774AA40000FFFB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8D74BC861896A2D000089896 /* EverliveSDK.framework */,
 				EC6246231887575900D8C56B /* CFNetwork.framework */,
 				EC6246241887575900D8C56B /* libicucore.dylib */,
 				EC6246211887557A00D8C56B /* libMobileTestingExtension.a */,
@@ -839,6 +845,7 @@
 					"/Users/ppavlov/everlive-ios-sdk/Sample",
 					/Users/ppavlov/Desktop,
 					"/Users/ppavlov/everlive-friends-ios",
+					"/Users/ppavlov/platform-friends-ios/Sample",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/EverliveSDKSample-Info.plist";
@@ -863,6 +870,7 @@
 					"/Users/ppavlov/everlive-ios-sdk/Sample",
 					/Users/ppavlov/Desktop,
 					"/Users/ppavlov/everlive-friends-ios",
+					"/Users/ppavlov/platform-friends-ios/Sample",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/EverliveSDKSample-Info.plist";
@@ -952,6 +960,7 @@
 					"/Users/ppavlov/everlive-ios-sdk/Sample",
 					/Users/ppavlov/Desktop,
 					"/Users/ppavlov/everlive-friends-ios",
+					"/Users/ppavlov/platform-friends-ios/Sample",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = "SampleQA-Info.plist";
@@ -980,6 +989,7 @@
 					"/Users/ppavlov/everlive-ios-sdk/Sample",
 					/Users/ppavlov/Desktop,
 					"/Users/ppavlov/everlive-friends-ios",
+					"/Users/ppavlov/platform-friends-ios/Sample",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = "SampleQA-Info.plist";
