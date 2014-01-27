@@ -14,11 +14,6 @@
 		6137E77F17F358ED00AE3A73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6137E74717F3589D00AE3A73 /* Foundation.framework */; };
 		6137E78017F358ED00AE3A73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6133DBEA17774AA40000FFFB /* CoreGraphics.framework */; };
 		6137E78117F358ED00AE3A73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6133DBE617774AA40000FFFB /* UIKit.framework */; };
-		6137E78717F358ED00AE3A73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6137E78517F358ED00AE3A73 /* InfoPlist.strings */; };
-		6137E78917F358ED00AE3A73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6137E78817F358ED00AE3A73 /* main.m */; };
-		6137E78D17F358ED00AE3A73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6137E78C17F358ED00AE3A73 /* AppDelegate.m */; };
-		6137E79317F358ED00AE3A73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6137E79217F358ED00AE3A73 /* ViewController.m */; };
-		6137E79517F358ED00AE3A73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6137E79417F358ED00AE3A73 /* Images.xcassets */; };
 		6144F38F17B15E7D00C7BC1C /* TKShadowedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6144F38E17B15E7D00C7BC1C /* TKShadowedView.m */; };
 		6144F39517B2EC2400C7BC1C /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6144F39417B2EC2400C7BC1C /* SignUpViewController.m */; };
 		61471C0D18195FAE0015E01A /* TKUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 61DA15441795CED600DEC1A2 /* TKUITextField.m */; };
@@ -40,7 +35,6 @@
 		61ED1BB71795F8DF00E31339 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61ED1BB11795F8DF00E31339 /* DetailViewController.m */; };
 		61ED1BB81795F8DF00E31339 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61ED1BB31795F8DF00E31339 /* LoginViewController.m */; };
 		61ED1BB91795F8DF00E31339 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61ED1BB51795F8DF00E31339 /* ViewController.m */; };
-		61EE1E9817FD6B8200C627F5 /* PushMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6137E78E17F358ED00AE3A73 /* PushMain.storyboard */; };
 		8D0FFADA18647FC000A35793 /* FriendsAppUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0FFAD918647FC000A35793 /* FriendsAppUser.m */; };
 		8D57852E185A2BE800F99ACB /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D57851A185A2BE800F99ACB /* avatar.png */; };
 		8D57852F185A2BE800F99ACB /* icon-add.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D57851B185A2BE800F99ACB /* icon-add.png */; };
@@ -77,6 +71,8 @@
 		8D7076D01863581100424C24 /* ADFSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7076CF1863581100424C24 /* ADFSLoginViewController.m */; };
 		8D74BC871896A2D000089896 /* EverliveSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D74BC861896A2D000089896 /* EverliveSDK.framework */; };
 		8D74BC881896A2D000089896 /* EverliveSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D74BC861896A2D000089896 /* EverliveSDK.framework */; };
+		8D74BC8A1896A2F000089896 /* EQATECAnalyticsMonitoriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D74BC891896A2F000089896 /* EQATECAnalyticsMonitoriOS.framework */; };
+		8D74BC8B1896A2F000089896 /* EQATECAnalyticsMonitoriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D74BC891896A2F000089896 /* EQATECAnalyticsMonitoriOS.framework */; };
 		8D775219185F3E4A002E6DC2 /* EQATECAnalyticsMonitoriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D775218185F3E4A002E6DC2 /* EQATECAnalyticsMonitoriOS.framework */; };
 		8D77521D185F433D002E6DC2 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D77521C185F433D002E6DC2 /* libstdc++.6.0.9.dylib */; };
 		8D77521F185F539D002E6DC2 /* logo-telerik_devcloud@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D77521E185F539D002E6DC2 /* logo-telerik_devcloud@2x.png */; };
@@ -158,16 +154,6 @@
 		6133DBEA17774AA40000FFFB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6137E74717F3589D00AE3A73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6137E76417F3589D00AE3A73 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6137E78417F358ED00AE3A73 /* PushSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PushSample-Info.plist"; sourceTree = "<group>"; };
-		6137E78617F358ED00AE3A73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6137E78817F358ED00AE3A73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6137E78A17F358ED00AE3A73 /* PushSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PushSample-Prefix.pch"; sourceTree = "<group>"; };
-		6137E78B17F358ED00AE3A73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6137E78C17F358ED00AE3A73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6137E78F17F358ED00AE3A73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/PushMain.storyboard; sourceTree = "<group>"; };
-		6137E79117F358ED00AE3A73 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6137E79217F358ED00AE3A73 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6137E79417F358ED00AE3A73 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6144F38D17B15E7D00C7BC1C /* TKShadowedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKShadowedView.h; sourceTree = "<group>"; };
 		6144F38E17B15E7D00C7BC1C /* TKShadowedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKShadowedView.m; sourceTree = "<group>"; };
 		6144F39317B2EC2400C7BC1C /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = SOURCE_ROOT; };
@@ -241,6 +227,7 @@
 		8D7076CE1863581100424C24 /* ADFSLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADFSLoginViewController.h; sourceTree = SOURCE_ROOT; };
 		8D7076CF1863581100424C24 /* ADFSLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADFSLoginViewController.m; sourceTree = SOURCE_ROOT; };
 		8D74BC861896A2D000089896 /* EverliveSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EverliveSDK.framework; sourceTree = "<group>"; };
+		8D74BC891896A2F000089896 /* EQATECAnalyticsMonitoriOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EQATECAnalyticsMonitoriOS.framework; sourceTree = "<group>"; };
 		8D775218185F3E4A002E6DC2 /* EQATECAnalyticsMonitoriOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EQATECAnalyticsMonitoriOS.framework; sourceTree = "<group>"; };
 		8D77521C185F433D002E6DC2 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
 		8D77521E185F539D002E6DC2 /* logo-telerik_devcloud@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-telerik_devcloud@2x.png"; sourceTree = SOURCE_ROOT; };
@@ -248,7 +235,7 @@
 		8D77523018608AD9002E6DC2 /* LiveAuthDialog_iPad.nib */ = {isa = PBXFileReference; lastKnownFileType = file; name = LiveAuthDialog_iPad.nib; path = LiveSDK.framework/Versions/5.0.3649.0612/Resources/LiveAuthDialog_iPad.nib; sourceTree = "<group>"; };
 		8D77523118608AD9002E6DC2 /* LiveAuthDialog_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file; name = LiveAuthDialog_iPhone.nib; path = LiveSDK.framework/Versions/5.0.3649.0612/Resources/LiveAuthDialog_iPhone.nib; sourceTree = "<group>"; };
 		8DC9703D187D8C7D00570EC4 /* Friends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Friends.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DC9703F187D8C7E00570EC4 /* Friends+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Friends+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DC9703F187D8C7E00570EC4 /* Friends+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Friends+.app"; path = "/Users/ppavlov/platform-friends-ios/Sample/build/Debug-iphoneos/Friends+.app"; sourceTree = "<absolute>"; };
 		8DD32E3C17C2518E00718D85 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		EC62461F1887552A00D8C56B /* SampleQA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleQA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC6246201887552A00D8C56B /* SampleQA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SampleQA-Info.plist"; path = "/Users/shoemate/Source/platform-friends-ios/Sample/SampleQA-Info.plist"; sourceTree = "<absolute>"; };
@@ -279,6 +266,7 @@
 				8D775219185F3E4A002E6DC2 /* EQATECAnalyticsMonitoriOS.framework in Frameworks */,
 				8D7076A91861B0D400424C24 /* GooglePlus.framework in Frameworks */,
 				8D7076A51861AE5B00424C24 /* GoogleOpenSource.framework in Frameworks */,
+				8D74BC8A1896A2F000089896 /* EQATECAnalyticsMonitoriOS.framework in Frameworks */,
 				8D77522F186089D1002E6DC2 /* LiveSDK.framework in Frameworks */,
 				8D74BC871896A2D000089896 /* EverliveSDK.framework in Frameworks */,
 			);
@@ -315,6 +303,7 @@
 				EC6246221887557A00D8C56B /* libMobileTestingExtension.a in Frameworks */,
 				8D74BC881896A2D000089896 /* EverliveSDK.framework in Frameworks */,
 				EC6245FA1887552A00D8C56B /* QuartzCore.framework in Frameworks */,
+				8D74BC8B1896A2F000089896 /* EQATECAnalyticsMonitoriOS.framework in Frameworks */,
 				EC6245FB1887552A00D8C56B /* FacebookSDK.framework in Frameworks */,
 				EC6245FC1887552A00D8C56B /* EQATECAnalyticsMonitoriOS.framework in Frameworks */,
 				EC6245FD1887552A00D8C56B /* GooglePlus.framework in Frameworks */,
@@ -333,10 +322,8 @@
 				8D77523118608AD9002E6DC2 /* LiveAuthDialog_iPhone.nib */,
 				8DD32E3C17C2518E00718D85 /* Icon@2x.png */,
 				6133DBEC17774AA40000FFFB /* EverliveSDKSample */,
-				6137E78217F358ED00AE3A73 /* EverlivePushSample */,
 				6133DBE517774AA40000FFFB /* Frameworks */,
 				8DC9703D187D8C7D00570EC4 /* Friends.app */,
-				8DC9703F187D8C7E00570EC4 /* Friends+.app */,
 				EC62461F1887552A00D8C56B /* SampleQA.app */,
 			);
 			sourceTree = "<group>";
@@ -344,6 +331,7 @@
 		6133DBE517774AA40000FFFB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8D74BC891896A2F000089896 /* EQATECAnalyticsMonitoriOS.framework */,
 				8D74BC861896A2D000089896 /* EverliveSDK.framework */,
 				EC6246231887575900D8C56B /* CFNetwork.framework */,
 				EC6246241887575900D8C56B /* libicucore.dylib */,
@@ -430,32 +418,6 @@
 				8D0FFAD918647FC000A35793 /* FriendsAppUser.m */,
 			);
 			name = Model;
-			sourceTree = "<group>";
-		};
-		6137E78217F358ED00AE3A73 /* EverlivePushSample */ = {
-			isa = PBXGroup;
-			children = (
-				6137E78B17F358ED00AE3A73 /* AppDelegate.h */,
-				6137E78C17F358ED00AE3A73 /* AppDelegate.m */,
-				6137E78E17F358ED00AE3A73 /* PushMain.storyboard */,
-				6137E79117F358ED00AE3A73 /* ViewController.h */,
-				6137E79217F358ED00AE3A73 /* ViewController.m */,
-				6137E79417F358ED00AE3A73 /* Images.xcassets */,
-				6137E78317F358ED00AE3A73 /* Supporting Files */,
-			);
-			name = EverlivePushSample;
-			path = PushSample;
-			sourceTree = "<group>";
-		};
-		6137E78317F358ED00AE3A73 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6137E78417F358ED00AE3A73 /* PushSample-Info.plist */,
-				6137E78517F358ED00AE3A73 /* InfoPlist.strings */,
-				6137E78817F358ED00AE3A73 /* main.m */,
-				6137E78A17F358ED00AE3A73 /* PushSample-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		61DA15401795CED600DEC1A2 /* Libraries */ = {
@@ -629,10 +591,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6137E79517F358ED00AE3A73 /* Images.xcassets in Resources */,
-				61EE1E9817FD6B8200C627F5 /* PushMain.storyboard in Resources */,
 				6172775017F3EDF3007828A6 /* Icon@2x.png in Resources */,
-				6137E78717F358ED00AE3A73 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -702,11 +661,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6137E79317F358ED00AE3A73 /* ViewController.m in Sources */,
-				6137E78D17F358ED00AE3A73 /* AppDelegate.m in Sources */,
 				611BDC2917FDC75900879DD6 /* MBProgressHUD.m in Sources */,
 				6172773E17F37661007828A6 /* TKUIButton.m in Sources */,
-				6137E78917F358ED00AE3A73 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -747,22 +703,6 @@
 			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
-		6137E78517F358ED00AE3A73 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6137E78617F358ED00AE3A73 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		6137E78E17F358ED00AE3A73 /* PushMain.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6137E78F17F358ED00AE3A73 /* Base */,
-			);
-			name = PushMain.storyboard;
-			sourceTree = "<group>";
-		};
 		61C795AB1818634D00A45036 /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -799,7 +739,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MACH_O_TYPE = mh_execute;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -824,7 +764,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MACH_O_TYPE = mh_execute;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
@@ -910,7 +850,7 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = "PushSample/PushSample-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "Friends+";
 				PROVISIONING_PROFILE = "5BA0488D-D06C-4F90-8137-BDE44A452F2D";
 				WRAPPER_EXTENSION = app;
@@ -941,7 +881,7 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = "PushSample/PushSample-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "Friends+";
 				PROVISIONING_PROFILE = "5BA0488D-D06C-4F90-8137-BDE44A452F2D";
 				WRAPPER_EXTENSION = app;
