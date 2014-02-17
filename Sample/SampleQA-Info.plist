@@ -50,7 +50,7 @@
 			<string>com.telerik.automation</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>tsfriends</string>
+				<string>friends</string>
 			</array>
 		</dict>
 	</array>
