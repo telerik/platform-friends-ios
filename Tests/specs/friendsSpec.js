@@ -1,4 +1,23 @@
 spec(function() {
+	/**
+	 * Test Configuration
+	 */
+	var configuration = {
+		// NOTE: Update this to an existing Telerik Backend Services username and password
+		USERNAME: 'seth',
+		PASSWORD: '333333',
+
+		// NOTE: Update this to the iOS URL of the Friends App
+		IOS_URL: 'friends://',
+
+		// NOTE: Update this to the Android package name of the Friends App
+		ANDROID_PACKAGE: 'com.telerik.app'
+	};
+
+	/**
+	 * Queries
+	 * These are reusable queries for elements in the user interface.
+	 */
 	var queries = {
 		ios: {
 			globals: {
@@ -35,28 +54,30 @@ spec(function() {
 		}
 	};
 
+	/**
+	 * Step Repository
+	 * These are reusable steps that perform actions in the application under test.
+	 */
 	var stepRepository = {
 		'Given Friends is running': {
 			'ios': [
-				ios.launch('tsfriends://')
+				ios.launch(configuration.IOS_URL)
 			],
 			'android': [
-				android.launch('com.telerik.app'),
+				android.launch(configuration.ANDROID_PACKAGE),
 				android.wait(1000)
 			]
 		},
 		'And is logged in': {
 			'ios': [
-				// NOTE: Update the following two lines to use an existing everlive account and password
-				ios.setText(queries.ios.login.usernameField, "USERNAME"),
-				ios.setText(queries.ios.login.passwordField, "PASSWORD"),
+				ios.setText(queries.ios.login.usernameField, configuration.USERNAME),
+				ios.setText(queries.ios.login.passwordField, configuration.PASSWORD),
 				ios.tap(queries.ios.login.loginButton),
 				ios.wait(3000)
 			],
 			'android': [
-				// NOTE: Update the following two lines to use an existing everlive account and password
-				android.setText(queries.android.login.usernameField, "USERNAME"),
-				android.setText(queries.android.login.passwordField, "PASSWORD"),
+				android.setText(queries.android.login.usernameField, configuration.USERNAME),
+				android.setText(queries.android.login.passwordField, configuration.PASSWORD),
 				android.tap(queries.android.login.loginButton),
 				android.wait(3000)
 			]
@@ -110,7 +131,7 @@ spec(function() {
 				})
 			],
 			'android': [
-				android.getPropertyValue({ class: 'android.widget.TextView', index: 0 }, 'text', function (result) {
+				android.getPropertyValue({ class: 'android.widget.TextView', properties : { text: 'Activities' } }, 'text', function (result) {
 					assert(result).equals('Activities');
 				})
 			]
@@ -144,7 +165,11 @@ spec(function() {
 		}
 	};
 
-	describe("Native: Verify button automation functions correctly", function() {
+	/**
+	 * Tests
+	 * These are the tests that will be performed against the application.
+	 */
+	describe("Verify activities user interface works as expected", function() {
 		test("Activities screen should display on login", function() {
 			step('Given Friends is running');
 			step('And is logged in');
@@ -168,4 +193,3 @@ spec(function() {
 		});
 	}, stepRepository);
 });
-
