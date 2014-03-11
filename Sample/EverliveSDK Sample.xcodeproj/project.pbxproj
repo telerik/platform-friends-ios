@@ -777,17 +777,13 @@
 					"$(SRCROOT)/../",
 					"$(inherited)",
 					"$(SRCROOT)/../Sample/",
-					"/Users/ppavlov/everlive-ios-sdk/Sample",
-					/Users/ppavlov/Desktop,
-					"/Users/ppavlov/everlive-friends-ios",
-					"/Users/ppavlov/platform-friends-ios/Sample",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = "SampleQA-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/shoemate/Source/platform-friends-ios/Sample",
+					"$(SRCROOT)",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = SampleQA;
@@ -806,17 +802,13 @@
 					"$(SRCROOT)/../",
 					"$(inherited)",
 					"$(SRCROOT)/../Sample/",
-					"/Users/ppavlov/everlive-ios-sdk/Sample",
-					/Users/ppavlov/Desktop,
-					"/Users/ppavlov/everlive-friends-ios",
-					"/Users/ppavlov/platform-friends-ios/Sample",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = "SampleQA-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/shoemate/Source/platform-friends-ios/Sample",
+					"$(SRCROOT)",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = SampleQA;
