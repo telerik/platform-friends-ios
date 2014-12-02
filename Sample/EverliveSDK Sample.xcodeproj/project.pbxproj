@@ -492,7 +492,7 @@
 				ORGANIZATIONNAME = "Telerik AD.";
 				TargetAttributes = {
 					6133DBE217774AA40000FFFB = {
-						DevelopmentTeam = CHSQ3M3P37;
+						DevelopmentTeam = 7R952UQ6B3;
 					};
 				};
 			};
@@ -726,19 +726,17 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SRCROOT)/../",
 					"$(inherited)",
-					"$(SRCROOT)/../Sample/",
-					"/Users/ppavlov/everlive-ios-sdk/Sample",
-					/Users/ppavlov/Desktop,
-					"/Users/ppavlov/everlive-friends-ios",
-					"/Users/ppavlov/platform-friends-ios/Sample",
+					"$(SRCROOT)/../Sample/**",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/EverliveSDKSample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Friends;
 				PROVISIONING_PROFILE = "";
 				TEST_AFTER_BUILD = YES;
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -751,19 +749,17 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SRCROOT)/../",
 					"$(inherited)",
-					"$(SRCROOT)/../Sample/",
-					"/Users/ppavlov/everlive-ios-sdk/Sample",
-					/Users/ppavlov/Desktop,
-					"/Users/ppavlov/everlive-friends-ios",
-					"/Users/ppavlov/platform-friends-ios/Sample",
+					"$(SRCROOT)/../Sample/**",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/EverliveSDKSample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = Friends;
 				PROVISIONING_PROFILE = "";
 				TEST_AFTER_BUILD = YES;
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
