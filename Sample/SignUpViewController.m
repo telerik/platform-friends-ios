@@ -58,7 +58,7 @@
         [newUser signUp:^(EVUser *user, NSError *error) {
             if (error == nil){
                [self.hud hide:YES];
-                [EVUser loginInWithUsername:user.username password:_passwordTextField.text block:^(EVUser *user, NSError *error) {
+                [EVUser loginWithUsername:user.username password:_passwordTextField.text block:^(EVUser *user, NSError *error) {
                     [self performSegueWithIdentifier:@"ShowActivities" sender:self];
                 }];
             }

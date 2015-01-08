@@ -19,4 +19,5 @@
 
 - (void)setWithResult:(NSDictionary *)result;
 - (NSDictionary*)getEverlivePropertiesMapping;
+- (NSArray*) getEverliveServerIgnoredProperties;
 @end

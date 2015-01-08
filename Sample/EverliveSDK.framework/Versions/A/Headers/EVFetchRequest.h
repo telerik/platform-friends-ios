@@ -15,7 +15,6 @@ typedef enum _SubsetFieldsInclusionMode{
 
 @interface EVFetchRequest : NSObject
 
-// EVFile != "Files" its been set by +description overload. In this way developer can have their own class name.
 @property (nonatomic, strong) Class contentType;
 @property (strong, nonatomic) NSPredicate* predicate;
 @property (strong, nonatomic) NSArray* sortDescriptors;
@@ -23,8 +22,7 @@ typedef enum _SubsetFieldsInclusionMode{
 @property (nonatomic) NSInteger fetchOffset;
 @property (nonatomic,strong) NSArray* subsetOfFields;
 @property (nonatomic) BOOL fieldsInclusionMode;
-
-//BOOL test = [self isKindOfClass:[SomeClass class]];
+@property (nonatomic) id expand;
 + (EVFetchRequest*)fetchRequestWithKindOfClass:(Class)class;
 - (id)initRequestWithKindOfClass:(Class)class;
 @end
