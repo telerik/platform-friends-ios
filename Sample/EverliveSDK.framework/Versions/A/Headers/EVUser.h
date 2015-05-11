@@ -101,7 +101,7 @@
  @param password The password of the user.
  @param block The block to execute. The block should have the following argument signature: (EVUser *user, NSError *error)
  */
-+ (void)loginInWithUsername:(NSString*)username password:(NSString*)password block:(EVUserResultBlock)block;
++ (void)loginWithUsername:(NSString*)username password:(NSString*)password block:(EVUserResultBlock)block;
 
 /*!
  Makes an asynchronous request to log in a user with facebook access token.

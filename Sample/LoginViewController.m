@@ -74,7 +74,7 @@
             self.hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
             self.hud.labelText = @"Please wait";
             
-            [EVUser loginInWithUsername:_usernameTextField.text password:_passwordTextField.text block:^(EVUser *user, NSError *error) {
+            [EVUser loginWithUsername:_usernameTextField.text password:_passwordTextField.text block:^(EVUser *user, NSError *error) {
                 [self loginUser:user error:error];
             }];
         }
