@@ -10,29 +10,29 @@
 	<string>EverliveSDK Sample</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>1362F020-029F-4504-B789-535CA13739DB</key>
-		<string>https://github.com/telerik/platform-friends-ios.git</string>
+		<key>DFBE6092877DEB12E20945EE514D99B6B972FE5A</key>
+		<string>github.com:TestStudio/platform-friends-ios.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Sample/EverliveSDK Sample.xcodeproj/project.xcworkspace</string>
+	<string>Sample/EverliveSDK Sample.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>1362F020-029F-4504-B789-535CA13739DB</key>
+		<key>DFBE6092877DEB12E20945EE514D99B6B972FE5A</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/telerik/platform-friends-ios.git</string>
+	<string>github.com:TestStudio/platform-friends-ios.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>1362F020-029F-4504-B789-535CA13739DB</string>
+	<string>DFBE6092877DEB12E20945EE514D99B6B972FE5A</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>1362F020-029F-4504-B789-535CA13739DB</string>
+			<string>DFBE6092877DEB12E20945EE514D99B6B972FE5A</string>
 			<key>IDESourceControlWCCName</key>
 			<string>platform-friends-ios</string>
 		</dict>

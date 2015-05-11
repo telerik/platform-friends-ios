@@ -781,10 +781,12 @@
 					"$(inherited)",
 					"$(SRCROOT)",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = SampleQA;
 				PROVISIONING_PROFILE = "";
 				TEST_AFTER_BUILD = YES;
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -806,10 +808,12 @@
 					"$(inherited)",
 					"$(SRCROOT)",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = SampleQA;
 				PROVISIONING_PROFILE = "";
 				TEST_AFTER_BUILD = YES;
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
