@@ -163,7 +163,6 @@
 		8DC9703D187D8C7D00570EC4 /* Friends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Friends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DD32E3C17C2518E00718D85 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		EC6246201887552A00D8C56B /* SampleQA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SampleQA-Info.plist"; path = "/Users/shoemate/Source/platform-friends-ios/Sample/SampleQA-Info.plist"; sourceTree = "<absolute>"; };
-		EC6246211887557A00D8C56B /* libMobileTestingExtension.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMobileTestingExtension.a; sourceTree = "<group>"; };
 		EC6246231887575900D8C56B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		EC6246241887575900D8C56B /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -218,7 +217,6 @@
 				8D74BC891896A2F000089896 /* EQATECAnalyticsMonitoriOS.framework */,
 				EC6246231887575900D8C56B /* CFNetwork.framework */,
 				EC6246241887575900D8C56B /* libicucore.dylib */,
-				EC6246211887557A00D8C56B /* libMobileTestingExtension.a */,
 				8D7076B91861CE0000424C24 /* CoreLocation.framework */,
 				8D7076B71861C0D100424C24 /* SystemConfiguration.framework */,
 				8D7076B51861C0C200424C24 /* Security.framework */,
