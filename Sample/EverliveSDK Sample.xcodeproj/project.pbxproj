@@ -162,9 +162,6 @@
 		8D77523118608AD9002E6DC2 /* LiveAuthDialog_iPhone.nib */ = {isa = PBXFileReference; lastKnownFileType = file; name = LiveAuthDialog_iPhone.nib; path = LiveSDK.framework/Versions/5.0.3649.0612/Resources/LiveAuthDialog_iPhone.nib; sourceTree = "<group>"; };
 		8DC9703D187D8C7D00570EC4 /* Friends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Friends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DD32E3C17C2518E00718D85 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
-		EC6246201887552A00D8C56B /* SampleQA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SampleQA-Info.plist"; path = "/Users/shoemate/Source/platform-friends-ios/Sample/SampleQA-Info.plist"; sourceTree = "<absolute>"; };
-		EC6246231887575900D8C56B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		EC6246241887575900D8C56B /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,8 +212,6 @@
 			children = (
 				0E3DCF6D1A5ECAB900B94EA4 /* EverliveSDK.framework */,
 				8D74BC891896A2F000089896 /* EQATECAnalyticsMonitoriOS.framework */,
-				EC6246231887575900D8C56B /* CFNetwork.framework */,
-				EC6246241887575900D8C56B /* libicucore.dylib */,
 				8D7076B91861CE0000424C24 /* CoreLocation.framework */,
 				8D7076B71861C0D100424C24 /* SystemConfiguration.framework */,
 				8D7076B51861C0C200424C24 /* Security.framework */,
@@ -259,7 +254,6 @@
 		6133DBED17774AA40000FFFB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EC6246201887552A00D8C56B /* SampleQA-Info.plist */,
 				8D7076BF1862F82200424C24 /* Default-568h@2x.png */,
 				8D77521E185F539D002E6DC2 /* logo-telerik_devcloud@2x.png */,
 				8D57851A185A2BE800F99ACB /* avatar.png */,
