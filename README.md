@@ -121,22 +121,3 @@ Once the app is configured as described in the previous section, you can run it 
 
 > Ensure that the emulator or the device that you are using has Internet connectivity when running the sample.
 
-## Screenshots
-???
-
-
-
-
-
-
-
-
-
-
-
-   
-
-
-
-
-
