@@ -10,6 +10,8 @@ tags: Sample App, Application, iOS, Objective-C, iPhone, iPad, BaaS, mBaaS, Soci
 
 # Friends Sample App for iOS
 
+<a href="https://github.com/telerik/platform-friends-ios" target="_blank"><img style="padding-left:20px" src="http://docs.telerik.com/platform/appbuilder/sample-apps/images/get-github.png" alt="Get from GitHub" title="Get from GitHub"></a>
+
 * [Overview](#overview)
 * [Requirements](#requirements)
 * [Configuration](#configuration)
