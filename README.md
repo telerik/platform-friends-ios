@@ -1,12 +1,3 @@
----
-title: Telerik Friends Sample App for iOS
-slug: sample-backend-services-friends-ios
-position: 1
-publish: true
-page_title: Telerik Friends Sample App for iOS | Telerik Platform
-description: 
-tags: Sample App, Application, iOS, Objective-C, iPhone, iPad, BaaS, mBaaS, Social, Analytics, Social Login
----
 
 # Friends Sample App for iOS
 
