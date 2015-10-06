@@ -43,7 +43,7 @@ Before you begin, you need to ensure that you have the following:
 - **An active Telerik Platform account**
 Ensure that you can log in to a Telerik Platform account. This can be a free trial account. Depending on your license you may not be able to use all app features. For more information on what is included in the different editions, check out the pricing page. All features included in the sample app work during the free trial period.
 
-- **Compatible XCode version**  
+- **A Compatible XCode version**  
 XCode 5 or or later must be installed on your Mac.
 
 ## Configuration
