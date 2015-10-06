@@ -1,5 +1,5 @@
 
-# Friends Sample App for iOS
+# Telerik Friends Sample App for iOS
 
 <a href="https://github.com/telerik/platform-friends-ios" target="_blank"><img style="padding-left:20px" src="http://docs.telerik.com/platform/appbuilder/sample-apps/images/get-github.png" alt="Get from GitHub" title="Get from GitHub"></a>
 
