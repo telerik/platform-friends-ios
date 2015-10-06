@@ -29,6 +29,13 @@ To implement all the features listed above, the sample app utilizes the followin
 - Telerik Analytics - used to store analytics data in the cloud
 - Telerik Analytics iOS SDK - to connect the app with Telerik Analytics
 
+## Screenshots
+
+Login Screen|Activity Stream|Activity Details
+---|---|---
+![Login Screen](https://raw.githubusercontent.com/telerik/platform-friends-ios/master/screenshots/ios-login-screen.png)|![Activities stream view](https://raw.githubusercontent.com/telerik/platform-friends-ios/master/screenshots/ios-activities-stream.png)|![Activity details view](https://raw.githubusercontent.com/telerik/platform-friends-ios/master/screenshots/ios-activity-details.png)
+
+
 ## Requirements
 
 Before you begin, you need to ensure that you have the following:
