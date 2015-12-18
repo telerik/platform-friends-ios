@@ -1,8 +1,6 @@
 
 # Telerik Friends Sample App for iOS
 
-<a href="https://github.com/telerik/platform-friends-ios" target="_blank"><img style="padding-left:20px" src="http://docs.telerik.com/platform/samples/images/get-github.png" alt="Get from GitHub" title="Get from GitHub"></a>
-
 <a id="top"></a>
 * [Overview](#overview)
 * [Screenshots](#screenshots)
@@ -12,31 +10,28 @@
 
 # Overview
 
-This repository contains the Telerik Friends app for iOS. It is a sample mobile app demonstrating how to integrate a large gamut of Telerik Platform services into a native iOS mobile application.
+This repository contains the Telerik Friends app for iOS. It is a sample mobile app demonstrating how to integrate a wide range of Telerik Platform services into a native iOS mobile application.
 
 The Telerik Friends sample app showcases these features and SDKs:
 
-- Cloud data access (Telerik Backend Services)
-- Working with files (Telerik Backend Services)
-- User registration and authentication (Telerik Backend Services)
-- Authentication with social login providers (Facebook, Google, etc.) (Telerik Backend Services)
+- [Cloud data](http://docs.telerik.com/platform/backend-services/ios/data/introduction) access (Telerik Backend Services)
+- Working with [files](http://docs.telerik.com/platform/backend-services/ios/files/introduction) (Telerik Backend Services)
+- User [registration](http://docs.telerik.com/platform/backend-services/ios/users/users-register) and [authentication](http://docs.telerik.com/platform/backend-services/ios/users/users-authenticate) (Telerik Backend Services)
+- Authentication with [social login](http://docs.telerik.com/platform/backend-services/ios/users/social-login/introduction) providers (Facebook, Google, etc.) (Telerik Backend Services)
 - Using custom user account fields (Telerik Backend Services)
-- Basic app analytics (Telerik Analytics)
-- Tracking feature usage (Telerik Analytics)
+- Basic [app analytics](http://docs.telerik.com/platform/analytics/getting-started/introduction) (Telerik Analytics)
+- Tracking [feature use](http://docs.telerik.com/platform/analytics/client/reports/feature-use) (Telerik Analytics)
 
 To implement all the features listed above, the sample app utilizes the following Telerik products and SDKs:
 
-- Telerik Backend Services - this is where all data, files, and user accounts are stored in the cloud
-- Telerik Backend Services iOS SDK - to connect the app to Telerik Backend Services
-- Telerik Analytics - used to store analytics data in the cloud
-- Telerik Analytics iOS SDK - to connect the app with Telerik Analytics
+- [Telerik Backend Services iOS SDK](http://docs.telerik.com/platform/backend-services/ios/getting-started-ios-sdk)&mdash;to connect the app to Telerik Backend Services
+- [Telerik Analytics iOS SDK](http://docs.telerik.com/platform/analytics/sdk/ios/)&mdash;to connect the app with Telerik Analytics
 
 # Screenshots
 
 Login Screen|Activity Stream|Activity Details
 ---|---|---
 ![Login Screen](https://raw.githubusercontent.com/telerik/platform-friends-ios/master/screenshots/ios-login-screen.png)|![Activities stream view](https://raw.githubusercontent.com/telerik/platform-friends-ios/master/screenshots/ios-activities-stream.png)|![Activity details view](https://raw.githubusercontent.com/telerik/platform-friends-ios/master/screenshots/ios-activity-details.png)
-
 
 # Requirements
 
@@ -52,33 +47,40 @@ XCode 5 or or later must be installed on your Mac.
 
 The Friends sample app comes fully functional, but to see it in action you must link it to your own Telerik Platform account.
 
-What you need to set:
+1. Log in to the Telerik Platform portal.
+2. Create a new Hybrid or NativeScript app.<br>
+	You will only use the backend of the app.
+3. Click the **Data** tab and then click **Enable and populate with sample data**.<br>
+	Sample content types with data required for the app to run is automatically created for you. The button also enables the **Users** service where user accounts for the app are precreated.
+3. Click the **Settings** tab.
+4. Take note of your **App ID**.
 
-## API Key for Telerik Backend Services
+> If you happen to break the structure of the automatically generated Friends data, you can delete the app and start over.
 
-This is a unique string that links the sample mobile app to a project in Telerik Backend Services where all the data is read from/saved. When creating the project, you must base it on the Friends sample Backend Services project that has all the necessary data prepopulated.
+## App ID for Telerik Platform
 
-You must use this project's API key. To set it in the app:
+This is a unique string that links the sample mobile app to your Telerik Platform account where all the data is read from/saved. To set it in the app code:
 
 1. Open the `EverliveSDKSample-Info.plist` file.
-2. Find the `EverliveAPIKey` key and set its value to the API Key of your Friends Backend Services project.
-
-> If you happen to break the structure of the automatically generated Friends sample project, you can delete it and a fresh instance will be created again for you automatically. Alternatively, you could create a new project and choose to start from a Friends template, instead of starting from a blank project.
+2. Find the `EverliveAPIKey` key and set its value to the App ID of your Telerik Platform app.
 
 ## (Optional) Project Key for Telerik Analytics
 
-This is a unique string that links the sample mobile app to a Telerik Analytics project in your account. If you do not set this the sample will still work, but no analytics data will be collected.
+This is a unique string that links the sample mobile app to the Analytics part of your Telerik Platform app. If you do not set this the sample will still work, but no analytics data will be collected.
 	
-1. Open the `EverliveSDKSample-Info.plist` file.
-2. Find the `analyticsProductID` key and set its value to the Project Key of your Friends Analytics project.
+1. In the Telerik Platform portal, go to your app.
+2. Click the **Analytics** tab and then click **Enable**.
+3. Go to **Analytics > Settings > Options** and take note of your **Project Key**.
+4. Open the `EverliveSDKSample-Info.plist` file.
+5. Find the `analyticsProductID` key and set its value to the **Project Key** that you acquired earlier.
 
 ## (Optional) Facebook App ID
-To demonstrate social login, we've pre-initialized the sample to use a purpose-built Facebook app by Telerik. However, you still need to enable Facebook integration in the Telerik Platform portal:
 
-1. Go to your app.
-2. Click the Backend Services project that you are using.
+To demonstrate social login, we have preinitialized the sample to use a purpose-built Facebook app by Telerik. However, you still need to enable Facebook integration in the Telerik Platform portal:
+
+1. In the Telerik Platform portal, go to your app.
 3. Navigate to **Users > Authentication**.
-4. Ensure that the Facebook box is checked.
+4. Ensure that the **Facebook** box is checked.
 
 > Note that if you intend to use the code for a production app you need to set up your own Facebook application and adjust the Facebook app ID as follows:
 	
@@ -87,12 +89,11 @@ To demonstrate social login, we've pre-initialized the sample to use a purpose-b
 
 ## (Optional) Google Client ID
 
-To demonstrate social login, we've pre-initialized the sample to use a Google Client ID owned by Telerik. However, you still need to enable Google integration in the Telerik Platform portal:
+To demonstrate social login, we have preinitialized the sample to use a Google Client ID owned by Telerik. However, you still need to enable Google integration in the Telerik Platform portal:
 
-1. Go to your app.
-2. Click the Backend Services project that you are using.
+1. In the Telerik Platform portal, go to your app.
 3. Navigate to **Users > Authentication**.
-4. Ensure that the Google box is checked.
+4. Ensure that the **Google** box is checked.
 
 > Note that if you intend to use the code for a production app you need to set up your own Google Client ID and adjust the code as follows:
 
@@ -101,12 +102,11 @@ To demonstrate social login, we've pre-initialized the sample to use a Google Cl
 
 ## (Optional) Microsoft Account
 
-To demonstrate social login, we've pre-initialized the sample to use a  Microsoft Account Client ID owned by Telerik. However, you still need to enable Microsoft Account integration in the Telerik Platform portal:
+To demonstrate social login, we have preinitialized the sample to use a  Microsoft Account Client ID owned by Telerik. However, you still need to enable Microsoft Account integration in the Telerik Platform portal:
 
-1. Go to your app.
-2. Click the Backend Services project that you are using.
+1. In the Telerik Platform portal, go to your app.
 3. Navigate to **Users > Authentication**.
-4. Click the Windows Live check box.
+4. Ensure that the **Windows Live** box is checked.
 
 > Note that if you intend to use the code for a production app you need to set up your own Microsoft Account Client ID and adjust the code as follows:
 
