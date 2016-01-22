@@ -14,7 +14,8 @@
  */
 @interface Everlive : NSObject
 
-@property (strong, nonatomic) NSString *appKey;
+@property (strong, nonatomic) NSString *appKey DEPRECATED_MSG_ATTRIBUTE("appKey is deprecated. Please use appId.");
+@property (strong, nonatomic) NSString *appId;
 @property (strong, nonatomic) NSString *masterKey;
 @property (strong, nonatomic) NSString *apiServerUrl;
 
@@ -32,7 +33,13 @@
  Sets the application key for your applicaiton.
  @param appKey The application key for your Everlive application.
  */
-+ (void)setApplicationKey:(NSString*)appKey;
++ (void)setApplicationKey:(NSString*)appKey DEPRECATED_MSG_ATTRIBUTE("setApplicationKey is deprecated. Please use setApplicationId.");
+
+/*!
+ Sets the application id for your applicaiton.
+ @param appId The application id for your Everlive application.
+ */
++ (void)setApplicationId:(NSString*)appId;
 
 /*!
  Sets the API server URL.

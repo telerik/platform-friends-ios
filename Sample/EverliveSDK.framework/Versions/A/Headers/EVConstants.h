@@ -22,7 +22,7 @@ typedef void (^EVScalarResultBlock)(NSUInteger result, NSError *error);
 typedef void (^EVFileResult)(EVFile *result, NSError *error);
 
 extern NSString* const kEverliveServer;
-extern NSString* const kEverliveAPIKey;
+extern NSString* const kEverliveAppId;
 extern NSString* const kEverliveMasterKey;
 NSString* const kAdfsSoapMessageTemplate;
 

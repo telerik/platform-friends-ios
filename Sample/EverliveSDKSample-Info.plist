@@ -46,7 +46,7 @@
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
-	<key>EverliveAPIKey</key>
+	<key>EverliveAppId</key>
 	<string></string>
 	<key>EverliveMasterKey</key>
 	<string></string>
@@ -75,6 +75,6 @@
 	<key>analyticsProductID</key>
 	<string>d06ddac40e324dbdac3085f0ea76f709</string>
 	<key>UseHTTPS</key>
-	<false/>
+	<true/>
 </dict>
 </plist>

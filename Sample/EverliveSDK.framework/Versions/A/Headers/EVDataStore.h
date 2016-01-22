@@ -14,7 +14,8 @@
  */
 @interface EVDataStore : NSObject
 
-@property (readonly, nonatomic) NSString* appKey;
+@property (readonly, nonatomic) NSString* appKey DEPRECATED_MSG_ATTRIBUTE("appKey is deprecated. Please use appId.");
+@property (readonly, nonatomic) NSString* appId;
 
 /*! 
  Returns the shared instance of the local data store.
