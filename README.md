@@ -62,7 +62,7 @@ The Friends sample app comes fully functional, but to see it in action you must 
 This is a unique string that links the sample mobile app to your Telerik Platform account where all the data is read from/saved. To set it in the app code:
 
 1. Open the `EverliveSDKSample-Info.plist` file.
-2. Find the `EverliveAPIKey` key and set its value to the App ID of your Telerik Platform app.
+2. Find the `EverliveAppId` key and set its value to the App ID of your Telerik Platform app.
 
 ## (Optional) Project Key for Telerik Analytics
 
@@ -113,9 +113,6 @@ To demonstrate social login, we have preinitialized the sample to use a  Microso
 1. Open the `EverliveSDKSample-Info.plist` file.
 2. Find the `LiveIDClientID` key and set its value to your Microsoft Account app ID.
 
-## HTTPS Connections
-
-By default the Friends Sample is configured to use HTTP. If you want to switch to HTTPS, update the `UseHTTPS` setting in `EverliveSDKSample-Info.plist` to `true`.
 
 # Running the Sample
 
